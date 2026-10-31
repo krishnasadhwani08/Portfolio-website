@@ -3,136 +3,343 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Krishna Sadhwani — Data Analytics, Machine Learning and Full Stack Development portfolio.">
-<title>Krishna Sadhwani | Data Analytics & Development</title>
+<title>Krishna Sadhwani | Data Analytics & Full Stack Development</title>
+<meta name="description" content="Krishna Sadhwani, B.Tech CSE (AI & ML) student at VIT Bhopal. Data analytics, machine learning and full stack projects. Open to internships.">
+<meta property="og:title" content="Krishna Sadhwani | Data Analytics & Full Stack Development">
+<meta property="og:description" content="Projects in machine learning, Power BI analytics and full stack development.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#f6f7f4">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23172033'/%3E%3Ctext x='50' y='66' font-size='52' font-weight='800' text-anchor='middle' fill='%23fff' font-family='sans-serif'%3EKS%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Krishna Sadhwani","url":"https://github.com/krishnasadhwani08","sameAs":["https://github.com/krishnasadhwani08","https://www.linkedin.com/in/krishna-sadhwani-109366330/"],"alumniOf":"VIT Bhopal University","jobTitle":"Computer Science Student"}</script>
 <style>
-:root{--bg:#0b1020;--panel:#111a2e;--panel2:#151f36;--text:#edf2ff;--muted:#a4b0c8;--line:rgba(180,198,230,.15);--accent:#80e0c0;--accent2:#9bb7ff;--warm:#f2c98a;--shadow:0 20px 60px rgba(0,0,0,.25)}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 80% 0%,rgba(74,111,181,.18),transparent 35%),var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.65}a{color:inherit;text-decoration:none}.wrap{width:min(1120px,calc(100% - 44px));margin:auto}
-header{position:sticky;top:0;z-index:20;background:rgba(11,16,32,.82);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}nav{height:72px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:800;letter-spacing:-.04em;font-size:1.08rem}.brand span{color:var(--accent)}.navlinks{display:flex;gap:26px;color:var(--muted);font-size:.9rem}.navlinks a:hover{color:var(--accent)}.menu{display:none;background:none;border:1px solid var(--line);color:var(--text);padding:8px 12px;border-radius:10px}
-.hero{padding:94px 0 76px;display:grid;grid-template-columns:1.4fr .8fr;gap:54px;align-items:center}.eyebrow{color:var(--accent);font-size:.78rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase}.hero h1{font-size:clamp(2.7rem,6vw,5.25rem);line-height:1.04;letter-spacing:-.065em;margin:18px 0}.hero h1 em{font-style:normal;color:var(--accent)}.lead{max-width:650px;color:var(--muted);font-size:1.08rem}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 18px;border-radius:12px;font-weight:750;font-size:.92rem;border:1px solid var(--line);transition:.2s}.btn.primary{background:var(--accent);color:#071711;border-color:var(--accent)}.btn:hover{transform:translateY(-2px)}.btn.secondary:hover{border-color:var(--accent);color:var(--accent)}
-.profile-card{background:linear-gradient(145deg,rgba(128,224,192,.12),rgba(155,183,255,.07));border:1px solid var(--line);border-radius:24px;padding:26px;box-shadow:var(--shadow);position:relative;overflow:hidden}.profile-card:after{content:"";position:absolute;width:180px;height:180px;border:1px solid rgba(128,224,192,.18);border-radius:50%;right:-75px;top:-75px;box-shadow:0 0 0 24px rgba(128,224,192,.035),0 0 0 48px rgba(128,224,192,.025)}.initials{width:64px;height:64px;border-radius:18px;background:var(--accent);color:#071711;display:grid;place-items:center;font-size:1.55rem;font-weight:900;margin-bottom:24px}.profile-card h3{margin:0 0 4px;font-size:1.3rem}.profile-card p{color:var(--muted);margin:0}.status{display:inline-flex;align-items:center;gap:8px;margin-top:24px;color:#b8f4dc;font-size:.83rem}.dot{width:8px;height:8px;border-radius:50%;background:var(--accent);box-shadow:0 0 12px var(--accent)}
-section{padding:66px 0;scroll-margin-top:78px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:28px}.kicker{color:var(--accent);font-size:.75rem;font-weight:800;letter-spacing:.15em;text-transform:uppercase}.section-head h2{font-size:clamp(1.8rem,4vw,2.7rem);letter-spacing:-.045em;margin:5px 0 0}.section-head p{max-width:490px;color:var(--muted);margin:0;font-size:.95rem}
-.about-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:18px}.panel{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:26px}.panel p{color:var(--muted);margin:0 0 14px}.panel p:last-child{margin-bottom:0}.facts{display:grid;grid-template-columns:1fr 1fr;gap:12px}.fact{background:var(--panel2);padding:17px;border-radius:14px}.fact strong{display:block;font-size:1.35rem;color:var(--accent)}.fact span{font-size:.82rem;color:var(--muted)}
-.project-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.project{background:linear-gradient(160deg,var(--panel),#0f1729);border:1px solid var(--line);border-radius:20px;padding:25px;display:flex;flex-direction:column;min-height:285px;transition:.2s}.project:hover{transform:translateY(-4px);border-color:rgba(128,224,192,.45)}.project-top{display:flex;justify-content:space-between;align-items:center;gap:12px}.tag{font-size:.72rem;color:var(--accent);background:rgba(128,224,192,.1);border:1px solid rgba(128,224,192,.2);padding:5px 9px;border-radius:999px}.project h3{font-size:1.28rem;letter-spacing:-.025em;margin:20px 0 8px}.project p{color:var(--muted);font-size:.92rem;margin:0 0 18px}.chips{display:flex;gap:7px;flex-wrap:wrap;margin-top:auto}.chip{font-size:.72rem;color:#c4cee2;border:1px solid var(--line);padding:5px 8px;border-radius:7px}.project-link{display:inline-flex;gap:8px;align-items:center;margin-top:18px;color:var(--accent);font-weight:750;font-size:.88rem}
-.skills-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.skillbox{background:var(--panel);border:1px solid var(--line);border-radius:17px;padding:21px}.skillbox h3{margin:0 0 13px;font-size:1rem}.skillbox p{color:var(--muted);font-size:.88rem;margin:0}
-.focus{background:linear-gradient(110deg,rgba(128,224,192,.1),rgba(155,183,255,.08));border:1px solid var(--line);border-radius:22px;padding:28px;display:flex;justify-content:space-between;gap:22px;align-items:center}.focus h3{font-size:1.3rem;margin:0 0 6px}.focus p{margin:0;color:var(--muted);max-width:680px}
-.contact{background:var(--panel);border:1px solid var(--line);border-radius:24px;padding:34px;display:flex;align-items:center;justify-content:space-between;gap:25px}.contact h2{font-size:2rem;letter-spacing:-.04em;margin:0 0 8px}.contact p{color:var(--muted);margin:0}.contact-links{display:flex;gap:10px;flex-wrap:wrap}
-footer{padding:30px 0 42px;color:var(--muted);font-size:.82rem;border-top:1px solid var(--line);margin-top:65px}.footer-inner{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
-@media(max-width:800px){.hero{grid-template-columns:1fr;padding-top:68px;gap:30px}.profile-card{max-width:460px}.about-grid{grid-template-columns:1fr}.skills-grid{grid-template-columns:repeat(2,1fr)}.section-head{display:block}.section-head p{margin-top:12px}.contact,.focus{align-items:flex-start;flex-direction:column}}
-@media(max-width:560px){.wrap{width:min(100% - 30px,1120px)}.navlinks{display:none;position:absolute;top:71px;left:0;right:0;background:#0e1628;padding:18px 22px;flex-direction:column;gap:14px;border-bottom:1px solid var(--line)}.navlinks.open{display:flex}.menu{display:block}.hero{padding:58px 0}.project-grid,.skills-grid{grid-template-columns:1fr}section{padding:48px 0}.contact{padding:25px}.facts{grid-template-columns:1fr 1fr}}
+:root{--bg:#f6f7f4;--card:#fff;--ink:#172033;--muted:#566176;--line:#dcdfe6;--blue:#2447d6;--blue-soft:#e8edff;--amber:#e08a00;--amber-soft:#fff2d9;--grid:rgba(23,32,51,.055)}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0f1524;--card:#161e32;--ink:#eef1f8;--muted:#a3adc2;--line:#2a3350;--blue:#8fa8ff;--blue-soft:#1f2a52;--amber:#f4b24a;--amber-soft:#3a2d12;--grid:rgba(255,255,255,.045)}}
+:root[data-theme=dark]{--bg:#0f1524;--card:#161e32;--ink:#eef1f8;--muted:#a3adc2;--line:#2a3350;--blue:#8fa8ff;--blue-soft:#1f2a52;--amber:#f4b24a;--amber-soft:#3a2d12;--grid:rgba(255,255,255,.045)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;color-scheme:light dark}
+body{margin:0;background:var(--bg);background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:32px 32px;color:var(--ink);font:400 1.05rem/1.65 "Source Sans 3",system-ui,-apple-system,"Segoe UI",sans-serif}
+h1,h2,h3,.brand{font-family:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;letter-spacing:-.03em;line-height:1.1}
+a{color:inherit}a:focus-visible,button:focus-visible{outline:3px solid var(--blue);outline-offset:3px;border-radius:6px}
+.wrap{width:min(1080px,calc(100% - 40px));margin:auto}
+.skip{position:absolute;left:-999px;top:8px;background:var(--ink);color:var(--bg);padding:8px 14px;border-radius:8px;z-index:50}.skip:focus{left:8px}
+header{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+nav{height:64px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.brand{font-weight:800;font-size:1.2rem;text-decoration:none}
+.navlinks{display:flex;gap:24px;align-items:center;font-size:.95rem;color:var(--muted)}.navlinks a{text-decoration:none}.navlinks a:hover,.navlinks a.on{color:var(--ink)}.navlinks a.on{box-shadow:0 2px 0 var(--blue)}
+.icon-btn{background:none;border:1px solid var(--line);color:var(--ink);border-radius:10px;padding:7px 12px;font:inherit;font-size:.9rem;cursor:pointer}
+.menu{display:none}
+.hero{padding:80px 0 56px}
+.hero h1{font-size:clamp(2.6rem,6.4vw,5rem);font-weight:800;max-width:15ch;margin:0 0 22px}
+.lead{max-width:60ch;color:var(--muted);font-size:1.15rem;margin:0}
+.lens{margin-top:38px;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px;display:grid;gap:14px;max-width:760px}
+.lens-q{font-weight:600;margin:0}
+.seg{display:inline-flex;background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:4px;gap:4px;width:max-content;max-width:100%;flex-wrap:wrap}
+.seg button{border:0;background:none;color:var(--muted);font:600 .95rem "Source Sans 3",sans-serif;padding:9px 16px;border-radius:9px;cursor:pointer}
+.seg button[aria-pressed=true]{background:var(--blue);color:#fff}
+:root[data-theme=dark] .seg button[aria-pressed=true],:root:not([data-theme=light]) .seg button[aria-pressed=true]{color:#0f1524}
+@media(prefers-color-scheme:light){:root:not([data-theme=dark]) .seg button[aria-pressed=true]{color:#fff}}
+.lens-out{margin:0;color:var(--muted);font-size:.98rem;min-height:3.2em}
+.lens-out b{color:var(--ink)}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.btn{display:inline-flex;padding:12px 20px;border-radius:12px;font-weight:600;text-decoration:none;border:1px solid var(--line);background:var(--card);transition:transform .15s,border-color .15s}
+.btn:hover{border-color:var(--blue);transform:translateY(-1px)}
+.btn.primary{background:var(--blue);border-color:var(--blue);color:#fff}
+:root[data-theme=dark] .btn.primary{color:#0f1524}@media(prefers-color-scheme:dark){:root:not([data-theme=light]) .btn.primary{color:#0f1524}}
+.status{display:flex;align-items:center;gap:10px;margin-top:26px;color:var(--muted);font-size:.95rem}
+.dot{width:9px;height:9px;border-radius:50%;background:#1f9d6b;box-shadow:0 0 0 4px rgba(31,157,107,.18)}
+section{padding:60px 0;scroll-margin-top:70px}
+h2{font-size:clamp(1.8rem,4vw,2.6rem);font-weight:700;margin:0 0 12px}
+.sub{color:var(--muted);max-width:58ch;margin:0 0 30px}
+.about{display:grid;grid-template-columns:1.3fr .7fr;gap:24px}
+.about p{margin:0 0 14px;max-width:62ch;color:var(--muted)}
+.facts{display:grid;gap:12px;align-content:start}
+.fact{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 18px;display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.fact b{font-family:"Bricolage Grotesque",sans-serif;font-size:1.25rem}.fact span{color:var(--muted);font-size:.92rem}
+.projects{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.project{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:26px;display:flex;flex-direction:column;border-left:4px solid var(--blue);transition:opacity .3s,filter .3s}
+.project[data-role=dev]{border-left-color:var(--amber)}
+.project h3{font-size:1.4rem;margin:12px 0 10px}
+.project p{color:var(--muted);margin:0 0 16px;font-size:1rem}
+.type{font-size:.85rem;font-weight:600;color:var(--blue)}.project[data-role=dev] .type{color:var(--amber)}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:auto;padding:0;list-style:none}
+.chips li{font-size:.82rem;background:var(--bg);border:1px solid var(--line);border-radius:7px;padding:3px 9px;color:var(--muted)}
+.plink{margin-top:18px;font-weight:600;color:var(--blue);text-decoration:none}.plink:hover{text-decoration:underline}
+.plink.none{color:var(--muted);font-weight:400}
+.plink-row{display:block}
+body[data-lens=data] .project[data-role=dev],body[data-lens=dev] .project[data-role=data]{opacity:.45}
+body[data-lens=dev] .project[data-role=dev]{order:-1}
+body[data-lens=dev] .project[data-role=dev]:nth-of-type(n){order:-1}
+.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.skill{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;transition:border-color .3s,background .3s}
+.skill h3{font-size:1.1rem;margin:0 0 8px}.skill p{margin:0;color:var(--muted);font-size:.97rem}
+body[data-lens=data] .skill[data-role=data],body[data-lens=dev] .skill[data-role=dev]{border-color:var(--blue);background:var(--blue-soft)}
+.contact{background:var(--ink);color:var(--bg);border-radius:24px;padding:40px;display:flex;justify-content:space-between;gap:24px;align-items:center;flex-wrap:wrap}
+.contact h2{margin:0 0 8px}.contact p{margin:0;opacity:.8;max-width:44ch}
+.contact .btn{background:transparent;color:var(--bg);border-color:rgba(255,255,255,.3)}.contact .btn.primary{background:var(--bg);color:var(--ink);border-color:var(--bg)}
+footer{padding:28px 0 40px;color:var(--muted);font-size:.9rem;border-top:1px solid var(--line);margin-top:40px}
+.foot{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+
+.proof{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px}
+.card h3{font-size:1.2rem;margin:0 0 16px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:0 0 20px}
+.stat{background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:12px}
+.stat b{display:block;font:800 1.5rem "Bricolage Grotesque",sans-serif}.stat span{font-size:.85rem;color:var(--muted)}
+.langbar{display:flex;height:10px;border-radius:6px;overflow:hidden;gap:2px;margin-bottom:14px}
+.langbar i{display:block;min-width:3px}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;list-style:none;margin:0;padding:0;font-size:.88rem;color:var(--muted)}
+.legend li:before{content:"";display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--c);margin-right:6px}
+.lc-total{display:flex;align-items:baseline;gap:10px;margin-bottom:14px}.lc-total b{font:800 2.6rem "Bricolage Grotesque",sans-serif}.lc-total span{color:var(--muted)}
+.diff{margin-bottom:12px}.diff div:first-child{display:flex;justify-content:space-between;font-size:.92rem;margin-bottom:4px}
+.track{height:8px;background:var(--bg);border:1px solid var(--line);border-radius:6px;overflow:hidden}.track i{display:block;height:100%;background:var(--c);width:0;transition:width 1s ease}
+.note{font-size:.85rem;color:var(--muted);margin:14px 0 0}
+@media(max-width:800px){.proof{grid-template-columns:1fr}}
+
+#bar{position:fixed;top:0;left:0;height:3px;width:0;background:var(--blue);z-index:60}
+.more{margin:0 0 16px;border-top:1px dashed var(--line);padding-top:10px}
+.more summary{cursor:pointer;font-weight:600;color:var(--blue);list-style:none;font-size:.95rem}
+.more summary::-webkit-details-marker{display:none}
+.more summary:before{content:"+";display:inline-block;width:1.2em;transition:transform .2s}
+.more[open] summary:before{content:"−"}
+.more ul{margin:10px 0 0;padding-left:1.1em;color:var(--muted);font-size:.97rem}
+.skill p{display:flex;flex-wrap:wrap;gap:6px}
+.sk{font:inherit;font-size:.88rem;background:var(--bg);color:var(--muted);border:1px solid var(--line);border-radius:7px;padding:3px 9px;cursor:pointer;transition:background .15s,color .15s,border-color .15s}
+.sk:hover{border-color:var(--blue);color:var(--ink)}
+.sk[aria-pressed=true]{background:var(--blue);border-color:var(--blue);color:#fff}
+:root[data-theme=dark] .sk[aria-pressed=true]{color:#0f1524}@media(prefers-color-scheme:dark){:root:not([data-theme=light]) .sk[aria-pressed=true]{color:#0f1524}}
+.skmsg{min-height:1.6em;margin:-14px 0 16px;color:var(--ink);font-weight:600}
+.project.skdim{opacity:.3}.project.skhit{border-color:var(--blue);box-shadow:0 0 0 3px var(--blue-soft)}
+#toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,20px);background:var(--ink);color:var(--bg);padding:10px 18px;border-radius:10px;opacity:0;pointer-events:none;transition:.25s;z-index:70}
+#toast.show{opacity:1;transform:translate(-50%,0)}
+@media(max-width:800px){.about,.projects{grid-template-columns:1fr}.skills{grid-template-columns:1fr 1fr}.hero{padding-top:56px}}
+@media(max-width:560px){.menu{display:block}.navlinks{display:none;position:absolute;top:64px;left:0;right:0;background:var(--bg);padding:16px 20px;flex-direction:column;align-items:flex-start;border-bottom:1px solid var(--line)}.navlinks.open{display:flex}.skills{grid-template-columns:1fr}.contact{padding:28px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+@media print{header,.lens,.menu{display:none}body{background:#fff}}
 </style>
 </head>
-<body>
-<header><nav class="wrap">
-  <a class="brand" href="#home">KS<span>.</span></a>
-  <button class="menu" id="menu" aria-label="Toggle navigation">Menu</button>
-  <div class="navlinks" id="navlinks"><a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div>
-</nav></header>
-<main>
-<section class="hero wrap" id="home">
-  <div>
-    <div class="eyebrow">Data Analytics · Machine Learning · Full Stack</div>
-    <h1>Turning data into <em>decisions.</em></h1>
-    <p class="lead">I'm Krishna Sadhwani, a Computer Science student focused on data analytics and machine learning. I enjoy cleaning messy datasets, finding patterns, building useful dashboards and turning analytical ideas into working applications.</p>
-    <div class="actions">
-      <a class="btn primary" href="#projects">Explore my projects ↗</a>
-      <a class="btn secondary" href="https://github.com/krishnasadhwani08" target="_blank" rel="noreferrer">GitHub ↗</a>
-      <a class="btn secondary" href="https://www.linkedin.com/in/krishna-sadhwani-109366330/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
-    </div>
+<body data-lens="data">
+<div id="bar" aria-hidden="true"></div><div id="toast" role="status" aria-live="polite"></div>
+<a class="skip" href="#main">Skip to content</a>
+<header><nav class="wrap" aria-label="Main">
+  <a class="brand" href="#home">Krishna Sadhwani</a>
+  <button class="icon-btn menu" id="menu" aria-expanded="false" aria-controls="navlinks">Menu</button>
+  <div class="navlinks" id="navlinks">
+    <a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#proof">Activity</a><a href="#contact">Contact</a>
+    <button class="icon-btn" id="theme" aria-label="Switch colour theme">Theme</button>
   </div>
-  <aside class="profile-card">
-    <div class="initials">KS</div>
-    <h3>Krishna Sadhwani</h3>
-    <p>B.Tech, CSE (AI & ML)<br>VIT Bhopal · Expected 2028</p>
-    <div class="status"><span class="dot"></span> Open to Data Analytics & Full Stack internships</div>
-  </aside>
+</nav></header>
+
+<main id="main">
+<section class="hero wrap" id="home">
+  <h1>I turn messy data into decisions.</h1>
+  <p class="lead">I'm a Computer Science student at VIT Bhopal specialising in AI &amp; Machine Learning. I clean datasets, find the patterns in them, and ship the results as dashboards and working apps.</p>
+
+  <div class="lens" role="group" aria-labelledby="lens-q">
+    <p class="lens-q" id="lens-q">Viewing this portfolio as a hiring manager for:</p>
+    <div class="seg">
+      <button type="button" data-set="data" aria-pressed="true">Data Analytics</button>
+      <button type="button" data-set="dev" aria-pressed="false">Full Stack</button>
+    </div>
+    <p class="lens-out" id="lens-out" aria-live="polite"></p>
+  </div>
+
+  <div class="actions">
+    <a class="btn primary" href="#projects">See projects</a>
+    <a class="btn" href="https://github.com/krishnasadhwani08" target="_blank" rel="noopener noreferrer">GitHub</a>
+    <a class="btn" href="https://www.linkedin.com/in/krishna-sadhwani-109366330/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+  </div>
+  <div class="status"><span class="dot" aria-hidden="true"></span>Open to Data Analytics and Full Stack internships</div>
 </section>
 
 <section class="wrap" id="about">
-  <div class="section-head"><div><div class="kicker">A little about me</div><h2>Curious by default. Practical by design.</h2></div></div>
-  <div class="about-grid">
-    <div class="panel">
-      <p>I'm pursuing a B.Tech in Computer Science and Engineering with a specialization in AI & Machine Learning at VIT Bhopal. My strongest interests are data analytics, machine learning and building software that solves real problems.</p>
-      <p>My project work has taken me through the full data workflow: ingestion, cleaning, exploratory analysis, feature engineering, model development, evaluation and presenting results through dashboards or applications.</p>
-      <p>I also enjoy full stack development and have worked with React, Node.js, Express and databases. I'm comfortable exploring LLM tooling too, including Hugging Face, Transformers and NVIDIA Nemotron-based model/API experimentation.</p>
+  <h2>About</h2>
+  <div class="about">
+    <div>
+      <p>I'm pursuing a B.Tech in Computer Science and Engineering (AI &amp; ML) at VIT Bhopal. I'm most interested in data analytics, machine learning and software that solves real problems.</p>
+      <p>My projects cover the full data workflow: ingestion, cleaning, exploratory analysis, feature engineering, modelling, evaluation, and presenting results through dashboards or applications.</p>
+      <p>I also build full stack apps with React, Node.js, Express and databases, and I experiment with LLM tooling including Hugging Face, Transformers and NVIDIA Nemotron.</p>
     </div>
     <div class="facts">
-      <div class="fact"><strong>2028</strong><span>Expected graduation</span></div>
-      <div class="fact"><strong>8.35</strong><span>Latest reported CGPA</span></div>
-      <div class="fact"><strong>Analytics</strong><span>Primary internship focus</span></div>
-      <div class="fact"><strong>Full Stack</strong><span>Additional role interest</span></div>
+      <div class="fact"><span>Degree</span><b>B.Tech CSE (AI &amp; ML)</b></div>
+      <div class="fact"><span>University</span><b>VIT Bhopal</b></div>
+      <div class="fact"><span>Graduating</span><b>2028</b></div>
+      <div class="fact"><span>Latest CGPA</span><b>8.35</b></div>
     </div>
   </div>
 </section>
 
 <section class="wrap" id="projects">
-  <div class="section-head"><div><div class="kicker">Selected work</div><h2>Projects that show the work.</h2></div><p>A selection of analytics, machine learning and application-development projects. The first projects are most relevant to data-focused roles.</p></div>
-  <div class="project-grid">
-    <article class="project">
-      <div class="project-top"><span class="tag">Data Analytics · Machine Learning</span><span>01</span></div>
+  <h2>Projects</h2>
+  <p class="sub">Use the switch at the top of the page to reorder these for the role you're hiring for.</p>
+  <div class="projects" id="projects-grid">
+    <article class="project" data-role="data">
+      <span class="type">Machine learning · Deployed</span>
       <h3>Student Performance Analyser</h3>
-      <p>An end-to-end ML project focused on analysing student data and predicting performance. Work includes data preprocessing, exploratory analysis, feature preparation, model training and evaluation, with a deployed interface for predictions.</p>
-      <div class="chips"><span class="chip">Python</span><span class="chip">Pandas</span><span class="chip">Scikit-learn</span><span class="chip">CatBoost</span><span class="chip">Data Cleaning</span><span class="chip">Deployment</span></div>
-      <a class="project-link" href="https://student-performance-analyser-3a2d-loaieig99.vercel.app?_vercel_share=Xm5IVh84SoZE8tMYDEc4KrdgSDa8quRS" target="_blank" rel="noreferrer">View live project ↗</a>
+      <p>End-to-end ML project that analyses student data and predicts performance: preprocessing, exploratory analysis, feature preparation, model training and evaluation, with a deployed interface for predictions.</p>
+      <details class="more"><summary>What I did</summary><ul><li>Cleaned and prepared student data</li><li>Explored patterns and engineered features</li><li>Trained, compared and evaluated models</li><li>Deployed a prediction interface on Vercel</li></ul></details>
+      <ul class="chips"><li>Python</li><li>Pandas</li><li>Scikit-learn</li><li>CatBoost</li><li>Deployment</li></ul>
+      <a class="plink" href="https://student-performance-analyser-3a2d-loaieig99.vercel.app?_vercel_share=Xm5IVh84SoZE8tMYDEc4KrdgSDa8quRS" target="_blank" rel="noopener noreferrer">Open live project ↗</a>
     </article>
-    <article class="project">
-      <div class="project-top"><span class="tag">Business Intelligence · Analytics</span><span>02</span></div>
+    <article class="project" data-role="data">
+      <span class="type">Business intelligence</span>
       <h3>Amazon Sales Analytics Dashboard</h3>
-      <p>A Power BI project exploring Amazon sales data through data cleaning, transformation, KPI design and visual analysis. Focus areas include sales performance, average order value, cancellations and order status.</p>
-      <div class="chips"><span class="chip">Power BI</span><span class="chip">Power Query</span><span class="chip">DAX</span><span class="chip">Data Cleaning</span><span class="chip">Visualization</span></div>
-      <a class="project-link" href="https://github.com/krishnasadhwani08/amazon-sales-powerbi-dashboard" target="_blank" rel="noreferrer">View GitHub repository ↗</a>
+      <p>Power BI dashboard built from cleaned and transformed Amazon sales data, with KPIs for sales performance, average order value, cancellations and order status.</p>
+      <details class="more"><summary>What I did</summary><ul><li>Cleaned and reshaped sales data in Power Query</li><li>Wrote DAX measures for sales, average order value, cancellations and order status</li><li>Built interactive visuals for regional trends and promotions</li></ul></details>
+      <ul class="chips"><li>Power BI</li><li>Power Query</li><li>DAX</li><li>Data cleaning</li></ul>
+      <a class="plink" href="https://github.com/krishnasadhwani08/amazon-sales-powerbi-dashboard" target="_blank" rel="noopener noreferrer">View repository ↗</a>
     </article>
-    <article class="project">
-      <div class="project-top"><span class="tag">Applied ML · IoT</span><span>03</span></div>
+    <article class="project" data-role="data">
+      <span class="type">Applied ML · IoT</span>
       <h3>EV Charging Station Recommendation</h3>
-      <p>A decision-support project for recommending reachable EV charging stations using distance, cost and battery constraints. The work explores station data, reachability filtering and recommendation logic, with an interest in forecasting and charging operations.</p>
-      <div class="chips"><span class="chip">Python</span><span class="chip">Machine Learning</span><span class="chip">Data Analysis</span><span class="chip">Optimization</span><span class="chip">IoT</span></div>
+      <p>Decision-support tool that recommends reachable EV charging stations using distance, cost and battery constraints, combining reachability filtering with recommendation logic.</p>
+      <details class="more"><summary>What I did</summary><ul><li>Filters stations by what the battery can reach</li><li>Ranks reachable options by distance and cost</li><li>Exploring forecasting and charging operations next</li></ul></details>
+      <ul class="chips"><li>Python</li><li>Machine learning</li><li>Optimisation</li><li>IoT</li></ul>
+      <span class="plink none">Repository coming soon</span>
     </article>
-    <article class="project">
-      <div class="project-top"><span class="tag">Full Stack Development</span><span>04</span></div>
+    <article class="project" data-role="dev">
+      <span class="type">Full stack</span>
       <h3>Genztube</h3>
-      <p>A YouTube-style full stack application. Built experience across frontend and backend integration, REST APIs, database connectivity and media handling.</p>
-      <div class="chips"><span class="chip">React</span><span class="chip">Node.js</span><span class="chip">Express</span><span class="chip">MongoDB Atlas</span><span class="chip">Cloudinary</span></div>
-      <a class="project-link" href="https://github.com/krishnasadhwani08" target="_blank" rel="noreferrer">Explore GitHub profile ↗</a>
+      <p>A YouTube-style full stack app covering frontend and backend integration, REST APIs, database connectivity and media upload handling.</p>
+      <details class="more"><summary>What I did</summary><ul><li>React frontend talking to a Node and Express REST API</li><li>MongoDB Atlas for data and Cloudinary for media</li><li>Deployed on Vercel</li></ul></details>
+      <ul class="chips"><li>React</li><li>Node.js</li><li>Express</li><li>MongoDB Atlas</li><li>Cloudinary</li></ul>
+      <a class="plink" href="https://custom-you-tube-style-platform.vercel.app" target="_blank" rel="noopener noreferrer">Open live project ↗</a>
     </article>
   </div>
 </section>
 
 <section class="wrap" id="skills">
-  <div class="section-head"><div><div class="kicker">Technical toolkit</div><h2>Tools I work with.</h2></div><p>Grouped by the work I want to do, rather than one enormous pile of technology logos.</p></div>
-  <div class="skills-grid">
-    <div class="skillbox"><h3>Data Analytics</h3><p>Python, Pandas, NumPy, SQL, Power BI, Power Query, DAX, data cleaning, EDA and data visualization.</p></div>
-    <div class="skillbox"><h3>Machine Learning</h3><p>Scikit-learn, CatBoost, KNN, Logistic Regression, Decision Trees, Random Forest and model evaluation.</p></div>
-    <div class="skillbox"><h3>LLMs & AI Tooling</h3><p>Hugging Face, Transformers, model/API experimentation, NVIDIA Nemotron and prompt-based workflows.</p></div>
-    <div class="skillbox"><h3>Frontend</h3><p>HTML, CSS, JavaScript, React.js, Next.js, Tailwind CSS and Bootstrap.</p></div>
-    <div class="skillbox"><h3>Backend & Databases</h3><p>Node.js, Express.js, FastAPI, REST APIs, MongoDB, MySQL and Prisma.</p></div>
-    <div class="skillbox"><h3>Cloud & Developer Tools</h3><p>AWS (EC2, S3, IAM, Elastic Beanstalk), Git, GitHub, Postman, Vercel and Render.</p></div>
+  <h2>Skills</h2>
+  <p class="sub">Grouped by the work I want to do. Click any skill to see which projects use it.</p>
+  <div class="skmsg" id="skmsg" aria-live="polite"></div>
+  <div class="skills">
+    <div class="skill" data-role="data"><h3>Data analytics</h3><p>Python, Pandas, NumPy, SQL, Power BI, Power Query, DAX, EDA, data visualisation.</p></div>
+    <div class="skill" data-role="data"><h3>Machine learning</h3><p>Scikit-learn, CatBoost, KNN, Logistic Regression, Decision Trees, Random Forest, model evaluation.</p></div>
+    <div class="skill" data-role="both"><h3>LLMs &amp; AI tooling</h3><p>Hugging Face, Transformers, NVIDIA Nemotron, API experimentation, prompt-based workflows.</p></div>
+    <div class="skill" data-role="dev"><h3>Frontend</h3><p>HTML, CSS, JavaScript, React.js, Next.js, Tailwind CSS, Bootstrap.</p></div>
+    <div class="skill" data-role="dev"><h3>Backend &amp; databases</h3><p>Node.js, Express.js, FastAPI, REST APIs, MongoDB, MySQL, Prisma.</p></div>
+    <div class="skill" data-role="both"><h3>Cloud &amp; tools</h3><p>AWS (EC2, S3, IAM, Elastic Beanstalk), Git, GitHub, Postman, Vercel, Render.</p></div>
   </div>
 </section>
 
-<section class="wrap">
-  <div class="focus">
-    <div><div class="kicker">Current focus</div><h3>Looking for an opportunity to learn by doing.</h3><p>Currently seeking Data Analyst and Data Analytics internships, while remaining open to Full Stack Development roles. Interested in real datasets, practical problem-solving, collaborative teams and meaningful project ownership.</p></div>
-    <a class="btn primary" href="#contact">Get in touch ↗</a>
+
+<section class="wrap" id="proof">
+  <h2>Proof of work</h2>
+  <p class="sub">Activity from my public GitHub and LeetCode profiles.</p>
+  <div class="proof">
+    <div class="card">
+      <h3>GitHub</h3>
+      <div class="stats">
+        <div class="stat"><b id="gh-repos">–</b><span>Public repos</span></div>
+        <div class="stat"><b>130</b><span>Commits</span></div>
+        <div class="stat"><b>4</b><span>Pull requests</span></div>
+      </div>
+      <div class="langbar" role="img" aria-label="Most used languages: Python 94 percent"><i style="width:94.38%;background:#3572a5" title="Python 94.38%"></i><i style="width:3.18%;background:#e8702a" title="Jupyter Notebook 3.18%"></i><i style="width:0.99%;background:#f1c40f" title="JavaScript 0.99%"></i><i style="width:0.63%;background:#e34c26" title="HTML 0.63%"></i><i style="width:0.32%;background:#2b7489" title="TypeScript 0.32%"></i><i style="width:0.27%;background:#888" title="C 0.27%"></i><i style="width:0.19%;background:#7b4fd0" title="CSS 0.19%"></i><i style="width:0.05%;background:#b07219" title="Java 0.05%"></i></div>
+      <ul class="legend"><li style="--c:#3572a5">Python 94.38%</li><li style="--c:#e8702a">Jupyter Notebook 3.18%</li><li style="--c:#f1c40f">JavaScript 0.99%</li><li style="--c:#e34c26">HTML 0.63%</li><li style="--c:#2b7489">TypeScript 0.32%</li><li style="--c:#888">C 0.27%</li><li style="--c:#7b4fd0">CSS 0.19%</li><li style="--c:#b07219">Java 0.05%</li></ul>
+      <p class="note">Language share and commit counts are a snapshot. <a href="https://github.com/krishnasadhwani08" target="_blank" rel="noopener noreferrer">View profile ↗</a></p>
+    </div>
+    <div class="card">
+      <h3>LeetCode</h3>
+      <div class="lc-total"><b>283</b><span>problems solved</span></div>
+      <div class="diff"><div><span>Easy</span><span>210 / 974</span></div><div class="track"><i style="--c:#1f9d6b;--w:21.6%" data-w="21.6%"></i></div></div><div class="diff"><div><span>Medium</span><span>70 / 2136</span></div><div class="track"><i style="--c:#e08a00;--w:3.3%" data-w="3.3%"></i></div></div><div class="diff"><div><span>Hard</span><span>3 / 986</span></div><div class="track"><i style="--c:#d6433b;--w:0.3%" data-w="3.0%"></i></div></div>
+      <p class="note">Snapshot of my solved counts. <a href="https://leetcode.com/u/karan_sadhwani/" target="_blank" rel="noopener noreferrer">View profile ↗</a></p>
+    </div>
   </div>
 </section>
 
 <section class="wrap" id="contact">
   <div class="contact">
-    <div><div class="kicker">Contact</div><h2>Let's build something useful.</h2><p>For internship opportunities, project discussions or collaboration.</p></div>
-    <div class="contact-links">
-      <a class="btn primary" href="https://www.linkedin.com/in/krishna-sadhwani-109366330/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
-      <a class="btn secondary" href="https://github.com/krishnasadhwani08" target="_blank" rel="noreferrer">GitHub ↗</a>
-      <a class="btn secondary" href="mailto:ksadhwanik786@gmail.com">Email ↗</a>
+    <div><h2>Let's work together.</h2><p>I'm looking for Data Analyst and Data Analytics internships, and I'm open to Full Stack roles. Get in touch about an opportunity or a project.</p></div>
+    <div class="actions" style="margin:0">
+      <a class="btn primary" href="https://www.linkedin.com/in/krishna-sadhwani-109366330/" target="_blank" rel="noopener noreferrer">Message on LinkedIn</a>
+      <a class="btn" href="mailto:ksadhwanik786@gmail.com">Email me</a>
+      <button class="btn" type="button" id="copy" data-email="ksadhwanik786@gmail.com">Copy email</button>
     </div>
   </div>
 </section>
 </main>
-<footer><div class="wrap footer-inner"><span>© 2026 Krishna Sadhwani</span><span>Designed for data, built with curiosity.</span></div></footer>
+
+<footer><div class="wrap foot"><span>© 2026 Krishna Sadhwani</span><span>Bhopal, India</span></div></footer>
+
 <script>
-const menu=document.getElementById('menu'),links=document.getElementById('navlinks');
-menu.addEventListener('click',()=>links.classList.toggle('open'));
-links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>links.classList.remove('open')));
+(function(){
+  var copy={
+    data:"<b>Data Analytics view.</b> Projects on cleaning, modelling and dashboards come first: a deployed ML app, a Power BI dashboard and an EV recommendation tool.",
+    dev:"<b>Full Stack view.</b> Application work comes first: Genztube, built with React, Node, Express and MongoDB. Analytics projects show how I handle data behind an app."
+  };
+  var body=document.body,out=document.getElementById('lens-out'),btns=document.querySelectorAll('[data-set]');
+  function set(l){
+    body.dataset.lens=l;out.innerHTML=copy[l];
+    btns.forEach(function(b){b.setAttribute('aria-pressed',b.dataset.set===l)});
+    document.querySelectorAll('.skill').forEach(function(s){
+      var r=s.dataset.role;s.style.borderColor=(r===l||r==='both')?'var(--blue)':'';s.style.background=(r===l||r==='both')?'var(--blue-soft)':'';
+    });
+    var g=document.getElementById('projects-grid'),items=[].slice.call(g.children);
+    items.sort(function(a,b){return (a.dataset.role===l?0:1)-(b.dataset.role===l?0:1)}).forEach(function(i){g.appendChild(i)});
+    try{sessionStorage.setItem('lens',l)}catch(e){}
+  }
+  btns.forEach(function(b){b.addEventListener('click',function(){set(b.dataset.set)})});
+  var s='data';try{s=sessionStorage.getItem('lens')||'data'}catch(e){}
+  set(s);
+
+  var menu=document.getElementById('menu'),nl=document.getElementById('navlinks');
+  menu.addEventListener('click',function(){var o=nl.classList.toggle('open');menu.setAttribute('aria-expanded',o)});
+  nl.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){nl.classList.remove('open');menu.setAttribute('aria-expanded',false)})});
+
+  var root=document.documentElement,t=document.getElementById('theme');
+  try{var saved=localStorage.getItem('theme');if(saved)root.dataset.theme=saved}catch(e){}
+  t.addEventListener('click',function(){
+    var dark=root.dataset.theme?root.dataset.theme==='dark':matchMedia('(prefers-color-scheme:dark)').matches;
+    root.dataset.theme=dark?'light':'dark';try{localStorage.setItem('theme',root.dataset.theme)}catch(e){}
+  });
+
+
+  // GitHub live repo count (falls back to a dash if the API is unavailable)
+  fetch('https://api.github.com/users/krishnasadhwani08').then(function(r){return r.json()}).then(function(u){
+    if(typeof u.public_repos==='number')document.getElementById('gh-repos').textContent=u.public_repos;
+  }).catch(function(){});
+  // animate LeetCode bars when visible
+  var bars=document.querySelectorAll('.track i');
+  function fill(){bars.forEach(function(b){b.style.width=b.dataset.w})}
+  if('IntersectionObserver' in window){new IntersectionObserver(function(e,o){if(e[0].isIntersecting){fill();o.disconnect()}}).observe(document.getElementById('proof'))}else fill();
+
+
+  // clickable skills -> highlight projects that use them
+  var msg=document.getElementById('skmsg'),cards=[].slice.call(document.querySelectorAll('.project'));
+  document.querySelectorAll('.skill p').forEach(function(p){
+    var items=p.textContent.replace(/\.$/,'').split(/,\s*(?![^()]*\))/);p.textContent='';
+    items.forEach(function(t){var b=document.createElement('button');b.type='button';b.className='sk';b.textContent=t.trim();b.setAttribute('aria-pressed','false');p.appendChild(b)});
+  });
+  function esc(x){return x.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')}
+  document.addEventListener('click',function(e){
+    var b=e.target.closest&&e.target.closest('.sk');if(!b)return;
+    var on=b.getAttribute('aria-pressed')==='true';
+    document.querySelectorAll('.sk').forEach(function(x){x.setAttribute('aria-pressed','false')});
+    cards.forEach(function(c){c.classList.remove('skdim','skhit')});msg.textContent='';
+    if(on)return;
+    b.setAttribute('aria-pressed','true');
+    var name=b.textContent.replace(/\s*\(.*$/,'').replace(/\.js$/i,'').trim(),re=new RegExp('\\b'+esc(name)+'\\b','i'),n=0;
+    cards.forEach(function(c){if(re.test(c.textContent)){c.classList.add('skhit');n++}else c.classList.add('skdim')});
+    msg.textContent=n?(n+(n>1?' projects use ':' project uses ')+name+'.'):'No project above uses '+name+' yet.';
+    if(n)document.getElementById('projects').scrollIntoView({behavior:'smooth'});
+  });
+  // copy email + toast
+  var toast=document.getElementById('toast'),tt;
+  function say(m){toast.textContent=m;toast.classList.add('show');clearTimeout(tt);tt=setTimeout(function(){toast.classList.remove('show')},2000)}
+  document.getElementById('copy').addEventListener('click',function(){
+    var em=this.dataset.email;
+    (navigator.clipboard?navigator.clipboard.writeText(em):Promise.reject()).then(function(){say('Email copied')},function(){say(em)});
+  });
+  // scroll progress
+  var bar=document.getElementById('bar');
+  addEventListener('scroll',function(){var h=document.documentElement;bar.style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight||1)*100)+'%'},{passive:true});
+
+  var links=document.querySelectorAll('.navlinks a[href^="#"]');
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting)links.forEach(function(a){a.classList.toggle('on',a.getAttribute('href')==='#'+e.target.id)})})},{rootMargin:'-45% 0px -50% 0px'});
+    document.querySelectorAll('main section[id]').forEach(function(s){io.observe(s)});
+  }
+})();
 </script>
 </body>
 </html>
